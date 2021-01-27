@@ -15,8 +15,10 @@ import { HomeComponent } from './home/home.component';
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent
-    
+    HomeComponent,
+    ContactComponent,
+    ProjectsComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,6 @@ import { HomeComponent } from './home/home.component';
       {path: '', component: HomeComponent},
       {path: 'Resume', component: ResumeComponent},
       {path: 'projects', component: ProjectsComponent},
-      {path: 'contact', component: ContactComponent}
     ]),
   ],
   providers: [],
