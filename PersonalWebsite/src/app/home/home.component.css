@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Wrapper{
+    width: 100%;
+    text-align: center;
+}
+.bannerWrapper{
+    height: auto;
+}
+.personal-img{
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.darkBg{
+    background-color: #3D3D3D;
+    color: white;
+}
+.lightBg{
+    background-color: #ECE9E1;
+    color: black;
+}
+.bannerWrapper h2{
+    line-height: 2;
+}
+.smallLeft{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.bigLeft{
+    padding: 5%
+}
+.smallRight{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.bigRight{
+    padding: 5%
+}
+.centerBtnWrapper{
+    padding-top: 8%;
+}
+.navbarButton{
+    float: top;
+    color: black;
+    border-radius: 25px;
+    margin: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+    min-width: 10%;
+    height: 35px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    text-align: left;
+    border-radius: 5px;
+    padding: 20px;
+} 
+
+
+
+@media only screen and (min-width: 768px){
+    .Wrapper{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .personal-img{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .topBanner{
+        line-height: 140%;
+        position: relative;
+        height: 560px;
+        display: flex;
+    }
+    #topLeft{
+        width: 50%;
+    }
+    #topRight{
+        width: 50%;
+        margin-top: 5%;
+    }
+    .socialMediaWrapper{
+        position: absolute;
+        bottom: 0;
+        right: 40px;
+    }
+    .personal-img{
+        margin-top: 5%;
+        width: 50%;
+    }
+    .bannerWrapper{
+        height: 500px;
+    }
+    .centerText{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1;
+        font-size: larger;
+    }
+    .bigLeft{
+        margin-right: auto;
+        width: 60%;
+        padding-left: 10%;
+        padding-right: 15%;
+    }
+    .smallRight{
+        order: 2;
+        margin-left: auto;
+        padding-right: 15%;
+        width: 40%;
+    }
+    .smallLeft{
+        margin-right: auto;
+        padding-left: 15%;
+        width: 40%;
+    }
+    .bigRight{
+        order: 2;
+        margin-left: auto;
+        width: 60%;
+        padding-left: 15%;
+        padding-right: 10%;
+    }
+    .centerBtnWrapper{
+        padding-top: 8%;
+
+    }
+    .navbarButton{
+        float: top;
+        color: black;
+        border-radius: 25px;
+        margin: 1%;
+        min-width: 10%;
+        height: 35px;
+    }
+    .contactFormWrapper{
+        display: flex;
+        width: 100%;
+    }
+    #contactFieldsWrapper{
+        width: 50%;
+        float: right;
+    }
+    .contactText{
+        width: 50%;
+    }
+
+    
+    input[type=text], select, textarea {
+        width: 100%; 
+        border: 1px solid #ccc; 
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical;
+    }
+    
+    .container {
+        text-align: left;
+        border-radius: 5px;
+        padding: 20px;
+    } 
+}
+
+@media only screen and (min-width: 2000px){
+    .topBanner{
+        height: auto;
+    }
+}

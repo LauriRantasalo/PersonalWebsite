@@ -1,0 +1,14 @@
+#navbarDiv{
+    text-align: center;
+    width: 100%;
+    background-color: #ECE9E1;
+}
+
+.navbarButton{
+    float: top;
+    color: black;
+    border-radius: 25px;
+    margin: 1%;
+    min-width: 10%;
+    height: 35px;
+}
